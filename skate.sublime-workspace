@@ -1,0 +1,1847 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"the_post",
+				"the_post_thumbnail"
+			],
+			[
+				"wp-f",
+				"wp-if\twordpress if statement"
+			],
+			[
+				"wp",
+				"wp-function\twordpress function"
+			],
+			[
+				"if",
+				"if\t<?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"whi",
+				"wp-while\twp-while"
+			],
+			[
+				"theme",
+				"theme_setup"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"wp-",
+				"wp-function\twordpress function"
+			],
+			[
+				"the",
+				"the_post"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"base",
+				"baseImg"
+			],
+			[
+				"browser",
+				"browserSync"
+			],
+			[
+				"bgp",
+				"bgpx\tbackground-position-x"
+			],
+			[
+				"bg",
+				"bgp\tbackground-position"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"img",
+				"img-top"
+			],
+			[
+				"bran",
+				"brand-color"
+			],
+			[
+				"brand",
+				"brand-secondary-color"
+			],
+			[
+				"fw",
+				"fw:n\tfont-weight:normal"
+			],
+			[
+				"font",
+				"font-serif"
+			],
+			[
+				"RW",
+				"RWinUp"
+			],
+			[
+				"Tab",
+				"Tab"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"fle",
+				"flex-end"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"texal",
+				"text-align"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"background-",
+				"background-attachment"
+			],
+			[
+				"script",
+				"JavaScript"
+			],
+			[
+				"echo",
+				"echo"
+			],
+			[
+				"list-s",
+				"list-style-image"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"pull-",
+				"pull-right \tBootstrap 3 Class"
+			],
+			[
+				"te-a",
+				"text-align"
+			],
+			[
+				"from",
+				"form-horizontal \tBootstrap 3 Class"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"form",
+				"form-inline \tBootstrap 3 Class"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"ski",
+				"skill-right"
+			],
+			[
+				"vued",
+				"vuecdata\tVue component data"
+			],
+			[
+				"vue",
+				"vue\tVue instance"
+			],
+			[
+				"ta",
+				"ta:l\ttext-align:left"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"b",
+				"bg\tbackground"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"nav",
+				"navbar-nav"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"Route",
+				"Route::get\tBasic Get Route."
+			],
+			[
+				"well",
+				"well-lg \tBootstrap 3 Class"
+			],
+			[
+				"label",
+				"label-success \tBootstrap 3 Class"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"h",
+				"h:a\theight:auto"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"brand-",
+				"brand-success"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"st",
+				"strong\tTag"
+			],
+			[
+				"list",
+				"list-n\tlist-style-type: none;"
+			],
+			[
+				"media",
+				"@media\t@media ${1:screen} {\n\t${0}\n}"
+			],
+			[
+				"Auth",
+				"Auth::guest\tDetermine if the current user is a guest."
+			],
+			[
+				"htmlspec",
+				"htmlspecialchars_decode"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"categor",
+				"categories"
+			],
+			[
+				"ready",
+				"ready\t$(document).ready"
+			],
+			[
+				"section",
+				"headSection"
+			],
+			[
+				"su",
+				"submit\t.submit()"
+			],
+			[
+				"aler",
+				"alert-danger \tBootstrap 3 Class"
+			],
+			[
+				"filename",
+				"filenameToStore"
+			],
+			[
+				"file",
+				"filenameWithExt"
+			],
+			[
+				"aja",
+				"ajaxsend\t$.ajaxSend()"
+			],
+			[
+				"ea",
+				"each\t.each()"
+			],
+			[
+				"read",
+				"ready\t$(document).ready"
+			],
+			[
+				"Au",
+				"Auth::check\tDetermine if the current user is authenticated."
+			],
+			[
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"Rout",
+				"Route::get\tBasic Get Route."
+			],
+			[
+				"list-grou",
+				"list-group-item \tBootstrap 3 Class"
+			],
+			[
+				"guar",
+				"Guard"
+			],
+			[
+				"Rou",
+				"Route::resource\tRoute to a RESTful Controller"
+			],
+			[
+				"glyphicon-enve",
+				"glyphicon-chevron-left \tBootstrap 3 Class"
+			],
+			[
+				"lorem",
+				"lorempixel"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"navbar-fi",
+				"navbar-fixed-top \tBootstrap 3 Class"
+			],
+			[
+				"w",
+				"w:a\twidth:auto"
+			],
+			[
+				"grid",
+				"grid-media"
+			],
+			[
+				"gri",
+				"grid-column"
+			],
+			[
+				"mt",
+				"mt:a\tmargin-top:auto"
+			],
+			[
+				"node",
+				"node-sass"
+			],
+			[
+				"word",
+				"word-spacing"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"bs3-bu",
+				"bs3-button:success\tbs3-button-success"
+			],
+			[
+				"select",
+				"selectRow"
+			],
+			[
+				"che",
+				"checkboxes"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"cel",
+				"cellspacing\tAttr"
+			],
+			[
+				"prog",
+				"progress-bar"
+			],
+			[
+				"progre",
+				"progressbar"
+			],
+			[
+				"table",
+				"table-bordered \tBootstrap 3 Class"
+			],
+			[
+				"tabl",
+				"table-responsive \tBootstrap 3 Class"
+			],
+			[
+				"bs3-tab",
+				"bs3-table:striped\tbs3-table-striped"
+			],
+			[
+				"bs3-ta",
+				"bs3-table\tbs3-table"
+			],
+			[
+				"return",
+				"return_data"
+			],
+			[
+				"return_",
+				"return_datas"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"ajax",
+				"ajaxsuccess\t$.ajaxSuccess()"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"report",
+				"reportlist"
+			],
+			[
+				"repor",
+				"reportlist"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"BACK",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"btn",
+				"btn-default \tBootstrap 3 Class"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 345.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"duplicate",
+				"File: Duplicate"
+			],
+			[
+				"bangse",
+				"Bang Search Input"
+			],
+			[
+				"gistope",
+				"Gist: Open Gist"
+			],
+			[
+				"bang",
+				"Bang Search Input"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"open",
+				"Gist: Open Gist"
+			],
+			[
+				"snippetmaker",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"make",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"col sch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"colo sch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"op",
+				"Gist: Open Gist"
+			],
+			[
+				"colsch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"gisup",
+				"Gist: Update File"
+			],
+			[
+				"gistop",
+				"Gist: Open Gist"
+			],
+			[
+				"gistadd",
+				"Gist: Add File to Gist"
+			],
+			[
+				"gistcre",
+				"Gist: Create Public Gist"
+			],
+			[
+				"snippetma",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"gist",
+				"Gist: Add File to Gist"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"o",
+				"Gist: Open Gist"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"copy",
+				"File: Copy Path"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"emmet: ",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"print",
+				"Print to HTML: print as HTML via browser"
+			],
+			[
+				"syntax: aut",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"schem",
+				"UI: Select Color Scheme"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"listpC",
+				"Package Control: List Packages"
+			],
+			[
+				"togglemen",
+				"View: Toggle Menu"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"fe",
+				"Fetch: Package"
+			],
+			[
+				"fetc",
+				"Fetch: Package"
+			],
+			[
+				"syntaxcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"project:",
+				"Project: Save As"
+			],
+			[
+				"copy as ",
+				"File: Copy as Tag style"
+			],
+			[
+				"copy pa",
+				"File: Copy Path"
+			],
+			[
+				"horizon",
+				"Preferences: Horizontal Scroll Key Bindings – Default"
+			],
+			[
+				"ban",
+				"Bang Search Input"
+			],
+			[
+				"websea",
+				"Preferences: WebSearch Key Bindings – User"
+			],
+			[
+				"websear",
+				"Preferences: WebSearch Settings – User"
+			],
+			[
+				"makes",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: bs3-sm-link-button-danger"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax: htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"make sni",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"vueda",
+				"Snippet: Vue component data"
+			],
+			[
+				"vue",
+				"Snippet: Vue component"
+			],
+			[
+				"bs3-button",
+				"Snippet: bs3-button-group"
+			],
+			[
+				"bs3-tem",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"bs3-car",
+				"Snippet: bs3-carousel"
+			],
+			[
+				"bs3-carou",
+				"Snippet: bs3-carousel"
+			],
+			[
+				"bs3-mod",
+				"Snippet: bs3-modal"
+			],
+			[
+				"npm",
+				"npm: Install and Save Package"
+			],
+			[
+				"bs3-",
+				"Snippet: bs3-thumbnail"
+			],
+			[
+				"@if",
+				"Snippet: Blade @ifelse"
+			],
+			[
+				"@for",
+				"Snippet: Blade @foreach"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"{{",
+				"Snippet: Blade {{ echo escaped data }}"
+			],
+			[
+				"@forea",
+				"Snippet: Blade @foreach"
+			],
+			[
+				"{",
+				"Snippet: Blade {{ echo escaped data }}"
+			],
+			[
+				"@yie",
+				"Snippet: Blade @yield"
+			],
+			[
+				"@incl",
+				"Snippet: Blade @include"
+			],
+			[
+				"@y",
+				"Snippet: Blade @yield"
+			],
+			[
+				"@sec",
+				"Snippet: Blade @section"
+			],
+			[
+				"@ext",
+				"Snippet: Blade @extends"
+			],
+			[
+				"@secti",
+				"Snippet: Blade @section"
+			],
+			[
+				"@se",
+				"Snippet: Blade @section"
+			],
+			[
+				"@ex",
+				"Snippet: Blade @extends"
+			],
+			[
+				"@e",
+				"Snippet: Blade @extends"
+			],
+			[
+				"generator",
+				"Laravel Generate 5: Make:Migration:Schema"
+			],
+			[
+				"resourc",
+				"Laravel Generate: Resource"
+			],
+			[
+				"laravel generate",
+				"Laravel Generate: Resource"
+			],
+			[
+				"@exte",
+				"Snippet: Blade @extends"
+			],
+			[
+				"@seci",
+				"Snippet: Blade @section"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"@sectio",
+				"Snippet: Blade @section"
+			],
+			[
+				"bs3-caro",
+				"Snippet: bs3-carousel"
+			],
+			[
+				"uninstall",
+				"npm: Remove/Uninstall Saved Package"
+			],
+			[
+				" ",
+				"Bower: Install dependencies"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3-ro",
+				"Snippet: bs3-row"
+			],
+			[
+				"bs3-th",
+				"Snippet: bs3-thumbnail"
+			],
+			[
+				"package control:ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3-well",
+				"Snippet: bs3-well-lg"
+			],
+			[
+				"bs3-pane",
+				"Snippet: bs3-panel"
+			],
+			[
+				"bs3-nav",
+				"Snippet: bs3-navbar-responsive"
+			],
+			[
+				"bs3-thu",
+				"Snippet: bs3-thumbnail-content"
+			],
+			[
+				"bs3-pan",
+				"Snippet: bs3-panel-success"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"bs3-col",
+				"Snippet: bs3-col-4"
+			],
+			[
+				"bs3-ht",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"jQuery",
+				"Snippet: jQuery.post"
+			],
+			[
+				"jQuer",
+				"Snippet: jQuery(document).ready"
+			],
+			[
+				"bs3-bu",
+				"Snippet: bs3-button-danger"
+			],
+			[
+				"bs3-nab",
+				"Snippet: bs3-navbar-fixed-top"
+			],
+			[
+				"bs3-carous",
+				"Snippet: bs3-carousel"
+			],
+			[
+				"bs3-htm",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"bs3-col-",
+				"Snippet: bs3-col-9"
+			],
+			[
+				"bs3-cont",
+				"Snippet: bs3-container"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-container"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveRee",
+				"LiveReload: Self test"
+			],
+			[
+				"Install ",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 270.0,
+		"history":
+		[
+			"cd user",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(true)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(true)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/functions.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/functions_2.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/myTasks.todo",
+		"/C/xampp/htdocs/wordpress/wordpress_net_ninja/wp-content/themes/resto/index.php",
+		"/c/users/audio333/appdata/local/temp/cacher_intro.md",
+		"/c/users/audio333/appdata/local/temp/test.txt",
+		"/C/xampp/htdocs/wordpress/wpclitest/wp-config.php",
+		"/c/wp-cli/wp.bat",
+		"/C/xampp/htdocs/wordpress/wp-cli/wp.bat",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/src/sass/3-layouts/_merch.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/src/sass/style.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/src/sass/2-base/_2-base.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/header.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/src/sass/3-layouts/_footer.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/src/sass/3-layouts/_team.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/src/sass/3-layouts/_banner.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/gulpfile.js",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/style.css",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/src/sass/2-base/_typography.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/src/sass/3-layouts/_header.sass",
+		"/c/users/audio333/appdata/local/temp/functions.php",
+		"/c/users/audio333/appdata/local/temp/index.php",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/User/Snippets/wp-while.sublime-snippet",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/User/Snippets/wp-if.sublime-snippet",
+		"/C/Users/audio333/Google Drive/AdvancedWindowSnap_.ahk",
+		"/c/users/audio333/appdata/local/temp/gistfile1.txt",
+		"/C/Users/audio333/Google Drive/AlwaysOnTopTransparentWindows.ahk",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/User/Origami.sublime-settings",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/Origami/Origami.sublime-settings",
+		"/c/users/audio333/appdata/local/temp/Gulpfile.js",
+		"/c/users/audio333/appdata/local/temp/package.json",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/index.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/gulpfile.js",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/index.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/src/sass/3-layouts/_footer.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/src/sass/3-layouts/_banner.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/src/index.html",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/archive.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/test.html",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop-theme/new/new.html",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/B",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/wp-snippets/style.css",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/wp-snippets/index.php",
+		"/C/xampp/htdocs/wordpress/wordpress/wp-content/themes/learningWordPress/front-page.php",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/User/Snippets/wphp.sublime-snippet",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/wp-snippets/functions.php",
+		"/C/xampp/htdocs/wordpress/wordpress/wp-content/themes/learningWordPress/footer.php",
+		"/C/xampp/htdocs/wordpress/wordpress/wp-content/themes/learningWordPress/header.php",
+		"/C/xampp/htdocs/wordpress/wordpress_net_ninja/wp-content/themes/resto/header.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/header.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/style.css",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/special-template.php",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/User/Snippets/wpif.sublime-snippet",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/page-merch.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/link.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/functions.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/single.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/content.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/front-page.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/Gulpfile.js",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/package.json",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/maps/style.css.map",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/src/js/dist/app.min.js",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/src/js/dev/script.js",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/src/sass/style.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/src/sass/1-helpers/_variables.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/web-crunch/src/sass/2-base/_global.sass",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/js/script.js",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/gulpfile.js",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/WPGulp/gulpfile.js",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/index.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/style.css",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/index.html",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/sass/style.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/css/style.css",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/sass/style.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/sass/1-helpers/_1-helpers.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/sass/3-layouts/_3-layouts.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/sass/2-base/_2-base.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/sass/_typography.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/sass/_global.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/sass/_variables.sass",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/src/sass/_base.sass",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/package.json",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/variables-site/_variables-site.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/variables-site/_columns.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/typography/_typography.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/typography/_headings.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/variables-site/_typography.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/variables-site/_structure.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/variables-site/_colors.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/layout/_sidebar-content.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/media/_captions.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/media/_media.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/media/_galleries.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/navigation/_links.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/navigation/_menus.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/navigation/_navigation.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate-shop/sass/style.scss",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate_shop/style.css",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate_shop/front-page.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate_shop/index.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate_shop/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-skate-shop/wp-content/themes/skate_shop/header.php",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/css/style.css",
+		"/C/xampp/htdocs/wordpress/wordpress_skate_shop/index.php",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/index.html",
+		"/C/Users/audio333/Google Drive/AdvancedWindowSnap.ahk",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/sass/style.sass",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/.sass-cache/85a699927e6f997bb56fac1efc3c2a643f170802/_banner.sassc",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/sass/layouts/_banner.sass",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/task.todo",
+		"/C/Users/audio333/Google Drive/AdvancedWindowSnap.ahk.txt",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/gulpfile.js",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/bower.json",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/User/AceJump.sublime-settings",
+		"/C/Users/audio333/AppData/Roaming/Sublime Text 3/Packages/AceJump/AceJump.sublime-settings",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/sass/layouts/_blogs.sass",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/sass/layouts/_merch.sass",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/sass/layouts/_videos.sass",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/sass/_base.sass",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/sass/_blogs.sass",
+		"/C/Users/audio333/Desktop/Projects/skate-shop/src/sass/_mixins.sass"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 114.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"get_post_format",
+			"get_template_part",
+			";"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 184.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.textarea":
+	{
+		"height": 321.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 181.0
+	},
+	"pinned_build_system": "Packages/Libsass Build/Sass (libsass).sublime-build",
+	"project": "skate.sublime-workspace",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				".todo",
+				"skate-shop-theme\\myTasks.todo"
+			],
+			[
+				"mersas",
+				"src\\sass\\3-layouts\\_merch.sass"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"teams",
+				"src\\sass\\3-layouts\\_team.sass"
+			],
+			[
+				"layouts",
+				"src\\sass\\3-layouts\\_banner.sass"
+			],
+			[
+				"fu",
+				"functions.php"
+			],
+			[
+				"layoutshea",
+				"src\\sass\\3-layouts\\_header.sass"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"srcstyle",
+				"src\\sass\\style.scss"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"foosass",
+				"src\\sass\\3-layouts\\_footer.sass"
+			],
+			[
+				".php",
+				"index.php"
+			],
+			[
+				"footer.php",
+				"footer.php"
+			],
+			[
+				"php",
+				"archive.php"
+			],
+			[
+				"fooph",
+				"footer.php"
+			],
+			[
+				"heaphp",
+				"header.php"
+			],
+			[
+				"foophp",
+				"footer.php"
+			],
+			[
+				"headphp",
+				"header.php"
+			],
+			[
+				"fuphp",
+				"functions.php"
+			],
+			[
+				"indph",
+				"index.php"
+			],
+			[
+				"funphp",
+				"functions.php"
+			],
+			[
+				"",
+				"index.php"
+			],
+			[
+				"inphp",
+				"index.php"
+			],
+			[
+				"fuph",
+				"functions.php"
+			],
+			[
+				"conphp",
+				"content.php"
+			],
+			[
+				"con",
+				"content.php"
+			],
+			[
+				"indphp",
+				"index.php"
+			],
+			[
+				"sinph",
+				"single.php"
+			],
+			[
+				"indephp",
+				"index.php"
+			],
+			[
+				"stysass",
+				"src\\sass\\style.sass"
+			],
+			[
+				"srcinde",
+				"src\\index.html"
+			],
+			[
+				"1-",
+				"src\\sass\\1-helpers\\_1-helpers.sass"
+			],
+			[
+				"fron",
+				"front-page.php"
+			],
+			[
+				"style",
+				"style.css"
+			],
+			[
+				"foote",
+				"footer.php"
+			],
+			[
+				"heade",
+				"header.php"
+			],
+			[
+				"_bannersas",
+				"src\\sass\\layouts\\_banner.sass"
+			],
+			[
+				"_",
+				".sass-cache\\85a699927e6f997bb56fac1efc3c2a643f170802\\_banner.sassc"
+			],
+			[
+				".sass",
+				"src\\sass\\style.sass"
+			],
+			[
+				"tod",
+				"src\\task.todo"
+			],
+			[
+				"todo",
+				"src\\task.todo"
+			],
+			[
+				"stycs",
+				"src\\css\\style.css"
+			],
+			[
+				"indht",
+				"src\\index.html"
+			],
+			[
+				"stylcss",
+				"src\\css\\style.css"
+			],
+			[
+				"min",
+				"sass\\_mixins.sass"
+			],
+			[
+				"stycss",
+				"css\\style.css"
+			],
+			[
+				"inhtml",
+				"index.html"
+			],
+			[
+				"to",
+				"task.todo"
+			],
+			[
+				"var",
+				"sass\\_variables.sass"
+			],
+			[
+				"vidsa",
+				"sass\\layouts\\_videos.sass"
+			],
+			[
+				"sa",
+				"sass\\style.sass"
+			],
+			[
+				"css",
+				"css\\style.css"
+			],
+			[
+				"sas",
+				"sass\\style.sass"
+			],
+			[
+				"cs",
+				"css\\style.css"
+			],
+			[
+				".subl",
+				"skate-shop.sublime-project"
+			],
+			[
+				"stysas",
+				"sass\\style.sass"
+			],
+			[
+				".sublime",
+				"src\\skate-shop.sublime-project"
+			],
+			[
+				"sass",
+				"sass\\app.sass"
+			],
+			[
+				"ap",
+				"css\\app.css"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"cssapp",
+				"scss\\app.sass"
+			],
+			[
+				"indee",
+				"node_modules\\fast-deep-equal\\spec\\index.spec.js"
+			],
+			[
+				"sixyne.su",
+				"sixtynine.sublime-project"
+			],
+			[
+				"c",
+				"flex.css"
+			],
+			[
+				"h",
+				"index.html"
+			],
+			[
+				"fle",
+				"flex.css"
+			],
+			[
+				"htm",
+				"index.html"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"404",
+				"404.php"
+			],
+			[
+				"sear",
+				"search.php"
+			],
+			[
+				"ar",
+				"archive.php"
+			],
+			[
+				"s",
+				"style.css"
+			],
+			[
+				"sy",
+				"style.css"
+			],
+			[
+				"single",
+				"single.php"
+			],
+			[
+				"page",
+				"page.php"
+			],
+			[
+				"front",
+				"front-page.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"styl",
+				"style.css"
+			],
+			[
+				"he",
+				"header.php"
+			],
+			[
+				"snipp",
+				"C:\\Users\\audio333\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\Snippets\\clrfx.sublime-snippet"
+			],
+			[
+				"emmecs",
+				"emmet.css"
+			],
+			[
+				"emmcss",
+				"emmet.css"
+			],
+			[
+				"eme",
+				"emmet.css"
+			],
+			[
+				"emme",
+				"emmet.css"
+			],
+			[
+				"emm",
+				"emmet.html"
+			],
+			[
+				"side",
+				"sidebar.php"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"sing",
+				"single.php"
+			],
+			[
+				"sign",
+				"single.php"
+			],
+			[
+				"content-asi",
+				"content-aside.php"
+			],
+			[
+				"conte",
+				"content.php"
+			],
+			[
+				"arch",
+				"archive.php"
+			],
+			[
+				"cont",
+				"content.php"
+			],
+			[
+				"st",
+				"style.css"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				".js",
+				"script.js"
+			],
+			[
+				"js",
+				"script.js"
+			],
+			[
+				"sin",
+				"single.php"
+			],
+			[
+				"page.php",
+				"wp-content\\themes\\learningWordPress\\page.php"
+			],
+			[
+				"scrip",
+				"js\\script.js"
+			],
+			[
+				"function",
+				"wp-content\\themes\\wpbootstrap\\function.php"
+			],
+			[
+				"src/ind",
+				"src\\index.html"
+			],
+			[
+				"src/scss",
+				"src\\scss\\_custom.sass"
+			],
+			[
+				"index",
+				"src\\index.html"
+			],
+			[
+				"src/_cust",
+				"src\\scss\\_customVariables.scss"
+			],
+			[
+				"js/",
+				"src\\js\\script.js"
+			],
+			[
+				"variable",
+				"bower_components\\bootstrap-sass\\assets\\stylesheets\\bootstrap\\_variables.scss"
+			],
+			[
+				"custom.sas",
+				"src\\scss\\_custom.sass"
+			],
+			[
+				"rweb",
+				"mysite_mix\\routes\\web.php"
+			],
+			[
+				"usercontroller",
+				"app\\Http\\Controllers\\Admin\\UserController.php"
+			],
+			[
+				"sidebar.bl",
+				"resources\\views\\admin\\layouts\\sidebar.blade.php"
+			],
+			[
+				"rwe",
+				"routes\\web.php"
+			],
+			[
+				"homecon",
+				"app\\Http\\Controllers\\User\\HomeController.php"
+			],
+			[
+				"homecontroll",
+				"app\\Http\\Controllers\\User\\HomeController.php"
+			],
+			[
+				"blog.blad",
+				"resources\\views\\user\\blog.blade.php"
+			],
+			[
+				"footer.b",
+				"resources\\views\\admin\\layouts\\footer.blade.php"
+			],
+			[
+				"footer.blad",
+				"resources\\views\\admin\\layouts\\footer.blade.php"
+			],
+			[
+				"post.blade",
+				"resources\\views\\admin\\post\\post.blade.php"
+			],
+			[
+				"select2.min",
+				"public\\admin\\plugins\\select2\\select2.min.css"
+			],
+			[
+				"tagcon",
+				"app\\Http\\Controllers\\Admin\\TagController.php"
+			],
+			[
+				"categorycontro",
+				"app\\Http\\Controllers\\Admin\\CategoryController.php"
+			],
+			[
+				"admin/post/post.bla",
+				"resources\\views\\admin\\post\\post.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

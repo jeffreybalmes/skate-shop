@@ -1,0 +1,71 @@
+footer
+	background: #303130
+	padding-top: 36px
+	color: #efefef
+
+	.wrapper
+		padding-bottom: 50px
+		+respond-to($tablet)
+			display: flex
+			justify-content: space-around
+			flex-wrap: wrap
+
+			& > div
+				float: none
+				margin-right: 0 !important
+
+		&:after
+			content: ''
+			display: block
+			clear: both
+
+		+respond-to($phone)
+			flex-direction: column
+			text-align: center
+
+			& > div
+				margin-bottom: 35px
+
+	.wrapper .site-map, .wrapper .help-center
+		margin-right: 150px
+		float: left
+
+	h5
+		font-size: em(23px)
+		font-family: $font-serif
+		font-weight: normal
+		margin: 9px 0
+		text-transform: uppercase
+
+	a
+		color: #efefef
+		font-size: em(14px)
+		font-weight: 400
+		line-height: 2.4
+
+	.social
+		float: right
+
+		ul
+			display: flex
+
+			+respond-to($phone)
+				float: none
+				display: flex
+				justify-content: center
+
+		li
+			margin-right: 18px
+
+		li:last-child
+			margin: 0
+
+		.fa
+			font-size: 1.9em
+
+	.copyright
+		text-align: center
+		padding: 20px
+		background-color: darken(#303130, 10%)
+		font-size: .9em
+		font-family: $font-serif

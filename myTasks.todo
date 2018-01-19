@@ -1,0 +1,58 @@
+
+Products:
+ ☐ Responsive Single Post Layout (main content, recommended products)
+ ☐ Pagination
+---- ✄ -----------------------
+ ✔ Post Type @done (17-11-08 22:12)
+ ✔ Custom Field @done (17-11-08 22:12)
+ ✔ Page @done (17-11-08 22:12)
+
+Blogs:
+  ☐ Pagination (Prev, Next)
+  ☐ Pagination
+---- ✄ -----------------------
+  ☐ Categories layout / Breadcrumbs
+  ✔ Page @done (17-11-08 22:11)
+  ✔ Single Post @done (17-11-10 11:48)
+
+Sidebar:
+  ☐ Latest posts layout
+  ☐ Facebook Page widget
+---- ✄ -----------------------
+  ☐ Latest Products & Layout
+  ☐ Featured Products
+  ✔ Products category menu @done (17-11-13 20:29)
+  ✔ Recent Blog Posts @done (17-11-10 11:32)
+  ✔ Date archive for Blogs @done (17-11-10 11:32)
+
+Front-page:
+   ☐ Dynamic banner image and text
+---- ✄ -----------------------
+   ☐ Banner Scroll down animation
+   ☐ text animation
+   ☐ Banner video loop
+   ☐ Video grid layout
+
+Footer:
+  ☐ Menu Widget
+  ☐ offset / negative space
+
+Others:
+  ☐ archive-page
+  ☐ search form
+  ☐ Google Map
+  ☐ Contact form with anti-spam
+--- ✄ -----------------------
+  ✔ font-awesome link @done (17-12-01 20:51)
+  ✔ Javascript src @done (17-11-25 21:14)
+  ✔ Footer copyright @done (17-11-10 12:34)
+
+ Codexworld WP Lessons:
+  ✔ Related posts for custom post types @done (17-11-11 23:47)
+  ☐ Facebook Page Plugin
+  ☐ Custom fields
+  ☐ Beginner's guide to developing a WP Theme
+  ☐ Protect WP site from hackers
+  ☐ WP Hosting at $1 per month + free domain
+
+

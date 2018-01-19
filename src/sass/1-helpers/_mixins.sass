@@ -1,0 +1,26 @@
+// MIXINS
+
+// Media Query
+=respond-to($device...)
+	@if length($device) == 1
+		@media screen and (max-width: nth($device, 1))
+			@content
+	@else if length($device) == 2
+		@media screen and (max-width: nth($device, 1) and (min-width: nth($device, 2)))
+			@content
+
+
+// Float Grid
+=grid($column, $margin)
+	float: left
+	margin-right: $margin
+	margin-bottom: $margin
+	width: ((100% - (($column - 1) * $margin)) / $column)
+	&:nth-child(#{column}n)
+		margin-right: 0
+
+
+
+
+
+

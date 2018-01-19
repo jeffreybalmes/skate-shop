@@ -1,0 +1,127 @@
+section.blogs
+	padding: 20px 0 0 0
+
+	ul.blogs-wrapper
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+
+
+	li.blog
+		flex: 0 0 calc((100% / 2) - 2%)
+		display: flex
+		margin-bottom: 39px
+		box-sizing: border-box
+		+respond-to($laptop)
+			flex: 0 0 100%
+			display: flex
+			margin-bottom: 39px
+			box-sizing: border-box
+		+respond-to($phone)
+			justify-content: center
+			flex-wrap: wrap
+
+	img.wp-post-image
+		+respond-to($phone)
+			margin-bottom: 40px
+
+	.blog-body
+		padding-left: 20px
+		box-sizing: border-box
+		+respond-to($phone)
+			flex: 0 0 90%
+
+	h5.blog-title
+		font-size: em(30px)
+		line-height: .8em
+		margin: 0
+		font-family: $font-serif
+
+	small.blog-date
+		color: #a3aa9b
+
+	p.blog-text
+		font-size: em(12px)
+		line-height: 1.7
+
+	a.read-more
+		font-size: em(12px)
+		color: $brand-color
+		font-weight: 700
+		line-height: .9em
+
+
+body.blog
+	.main-content
+		display: flex
+		justify-content: space-between
+		padding-bottom: 50px
+		+respond-to($laptop)
+			flex-direction: column
+
+	ul.blogs-wrapper
+		display: block
+		flex: 0 0 78%
+
+
+body.single
+	@extend body.blog
+
+	section.blogs
+		.wrapper
+			display: flex
+			justify-content: space-between
+			padding: 38px 0 65px 0
+			+respond-to($laptop)
+				flex-direction: column
+
+		.blogs-container
+			margin-right: 34px
+			+respond-to($laptop)
+				margin: 0 auto
+
+		li.blog
+			display: block
+
+		img.wp-post-image
+			max-width: 100%
+			height: auto
+			+respond-to($phone)
+				margin: 0
+
+		.blog-body
+			margin: 0
+			padding: 0
+
+		h5.blog-title
+			margin-top: 25px
+			font-family: $font-serif
+			font-size: 1.8em
+			line-height: 1.1em
+			text-transform: uppercase
+
+		p
+			line-height: 1.6
+
+
+body.single-shop section.blogs
+	li.blog
+		display: flex
+		justify-content: space-between		
+
+
+	.img-wrapper
+		width: 30%
+
+	img.wp-post-image
+		max-width: 100%
+
+	.blog-body
+		width: 65%
+
+	h5.blog-title
+		margin-top: 5px
+
+
+
+

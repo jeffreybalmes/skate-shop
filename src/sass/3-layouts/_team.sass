@@ -1,0 +1,75 @@
+section.team
+	padding: 20px 0
+
+	.team-wrapper
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		padding: 15px 0
+		margin-bottom: 45px
+		+respond-to($laptop)
+			justify-content: center
+
+	ul.img-members
+		display: flex
+		flex-wrap: wrap
+		// max-width: calc(267px *2)
+		flex: 0 0 calc(100% / 2)
+		+respond-to($laptop)
+			flex: 0 0 calc(100% - 20%)
+			order: 1
+			margin-bottom: 30px
+
+		li.img-member
+			// max-width: 267px
+			flex: 0 0 calc((100% / 2) - 2%)
+			position: relative
+			+respond-to($phone)
+				min-width: 100%
+				height: auto
+
+		img
+			width: 100%
+			display: block
+
+		h4.member-name
+			color: #fff
+			font-weight: 400
+			width: 114px
+			font-size: em(32px)
+			font-family: $font-serif
+			line-height: 1em
+			position: absolute
+			bottom: 12px
+			left: 18px
+			margin: 0
+			z-index: 1
+
+	.team-info
+		// max-width: 537px
+		flex: 0 0 calc((100% / 2) - 2%)
+		+respond-to($laptop)
+			flex: 0 0 calc(100% - 20%)
+			order: 2
+		+respond-to($phone)
+			line-height: 2.9em
+
+		h3.team-name
+			font-size: em(37px)
+			font-family: $font-serif
+			color: $brand-color
+			margin: 20px 0 0 0
+			text-transform: uppercase
+
+		h4.member-name
+			+respond-to($phablet)
+				font-size: 1.6em
+			+respond-to($phone)
+				font-size: 2em !important
+
+		p.text-bold
+			font-weight: bold
+			margin-top: 5px
+
+		p
+			line-height: 1.5

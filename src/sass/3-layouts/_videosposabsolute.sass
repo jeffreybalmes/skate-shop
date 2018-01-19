@@ -1,0 +1,51 @@
+section.videos
+	padding: 20px 0 0 0
+
+	ul.videos-wrapper
+		margin-top: 20px
+		display: grid
+		grid-template-columns: repeat(3, 1fr)
+		// grid-template-rows: minmax(auto, 150px)
+		grid-gap: 18px
+		+respond-to($tablet)
+			grid-template-columns: repeat(2, 1fr)
+			grid-gap: 10px
+		+respond-to($phone)
+			display: block
+			text-align: center
+
+	li.video
+		margin-bottom: 14px
+		position: relative
+		padding-bottom: 56.25% /* 16:9 */
+		padding-top: 25px
+		height: 0
+
+		iframe
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+
+
+	h5.video-title
+		margin-top: 8px
+		font-size: em(16px)
+
+
+body.page-id-16
+	section.videos
+		.wrapper
+			margin-bottom: 50px
+
+		.main-content
+			display: flex
+			justify-content: space-between
+			+respond-to($laptop)
+				flex-direction: column
+
+		ul.videos-wrapper
+			margin: 0
+			flex: 0 0 78%
+			grid-gap: 10px

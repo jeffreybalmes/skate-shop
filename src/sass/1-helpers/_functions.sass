@@ -1,0 +1,25 @@
+// FUNCTIONS
+
+// Text Contrast
+@function text-contrast($background)
+	@if lightness($background) < 50%
+		@return lighten($background, 70%)
+	@else
+		@return darken($background, 70%)
+
+// Set Text Color
+@function set-text-color($color)
+	@if lightness($color) > 50
+		@return #000
+	@else
+		@return #fff
+
+//Convert pixels to ems
+@function em($pixels, $context: $font-size)
+	@if (unitless($pixels))
+		$pixels: $pixels * 1px
+
+	@if (unitless($context))
+		$context: $context * 1px
+
+	@return $pixels / $context * 1em

@@ -1,0 +1,94 @@
+.open
+	height: auto
+
+header
+	background: $brand-color
+
+	.wrapper
+		display: flex
+		justify-content: space-between
+		align-items: center
+
+		+respond-to($tablet)
+			display: block
+
+		+respond-to($phone)
+			position: relative
+
+	h1.logo
+		margin: 0
+		text-indent: -9999px
+		background: url(src/images/logo.png) 0 30px no-repeat
+		height: 57px
+		width: 138px
+		padding: 28px 0
+		+respond-to($tablet)
+			width: 100%
+			margin: 0 auto
+			background-position-x: 50%
+			padding: 0
+			height: 85px
+
+		+respond-to($phone)
+			margin-left: -20px
+			margin-bottom: 40px
+
+	nav.main-nav
+		+respond-to($laptop)
+			display: block
+
+	nav.main-nav > h1, nav.main-nav > a.burger-nav
+		text-indent: -9999px
+		height: 0
+		width: 0
+		margin: 0
+		padding: 0
+
+	nav.main-nav > a.burger-nav
+		+respond-to($phone)
+			position: absolute
+			top: 25px
+			left: -15px
+			display: block
+			width: 100%
+			padding: 5px
+			height: 53px
+			background: url(src/images/burger-nav.png) no-repeat 95% center
+
+	ul
+		display: flex
+		justify-content: space-between
+
+		+respond-to($laptop)
+			justify-content: space-around
+
+		+respond-to($phone)
+			flex-flow: column wrap
+			height: 0
+			overflow: hidden
+
+
+	li
+		font-family: $font-serif
+		+respond-to($phone)
+			border-bottom: 1px solid $brand-secondary-color
+			padding: 0 15px
+
+			&:last-child
+				border-bottom: none
+
+	a
+		font-size: em(23px)
+		padding: 35px 20px
+		display: block
+		text-decoration: none
+		color: #fff
+		text-transform: uppercase
+
+		&:hover
+			color: $brand-secondary-color
+
+		+respond-to($tablet)
+			padding: 20px 0
+
+

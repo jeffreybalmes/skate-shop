@@ -1,0 +1,46 @@
+aside.sidebar
+	// background-color: #ccc
+	min-width: 20%
+
+	.widget-item
+		padding: 5px 5px 35px 5px
+
+	h4
+		text-align: center
+		font-family: $font-serif
+		text-transform: uppercase
+		margin: 0 0 8px 0
+		font-size: 1.1em
+
+	li
+		padding: 7px 5px
+		border-bottom: 1px solid $brand-secondary-color
+		+respond-to($laptop)
+			text-align: center
+
+	a
+		font-size: .9em
+		font-weight: normal
+
+	ul.blogs-wrapper
+
+		li.blog
+			display: flex
+			border: none
+			margin-bottom: 10px
+			justify-content: flex-start
+
+		.blog-body
+			padding-left: 15px
+
+		.blog-date
+			font-size: .7em
+
+		.blog-body h5.blog-title
+			margin-top: 3px
+			font-family: $font-stack
+			font-size: 1.2em
+			color: #222
+
+			&:hover
+				text-decoration: underline
