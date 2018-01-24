@@ -1,5 +1,7 @@
 section.blogs
 	padding: 20px 0 0 0
+	+respond-to($phablet)
+		padding: 20px
 
 	ul.blogs-wrapper
 		display: flex
@@ -29,7 +31,8 @@ section.blogs
 		padding-left: 20px
 		box-sizing: border-box
 		+respond-to($phone)
-			flex: 0 0 90%
+			flex: 0 0 100%
+			padding: 5px
 
 	h5.blog-title
 		font-size: em(30px)
@@ -58,7 +61,10 @@ body.blog
 		padding-bottom: 50px
 		+respond-to($laptop)
 			flex-direction: column
-
+			padding: 20px
+		+respond-to($phablet)
+			padding: 0
+		
 	ul.blogs-wrapper
 		display: block
 		flex: 0 0 78%
@@ -82,6 +88,9 @@ body.single
 
 		li.blog
 			display: block
+			padding: 0 20px
+			+respond-to($phablet)
+				padding: 0
 
 		img.wp-post-image
 			max-width: 100%
@@ -108,17 +117,21 @@ body.single-shop section.blogs
 	li.blog
 		display: flex
 		justify-content: space-between		
-
+		+respond-to($phablet)
+			display: block
 
 	.img-wrapper
 		width: 30%
-
-	img.wp-post-image
-		max-width: 100%
+		+respond-to($phablet)
+			min-width: 100%
+			text-align: center
+			margin-bottom: 50px
 
 	.blog-body
 		width: 65%
-
+		+respond-to($phablet)
+			width: 100%
+		
 	h5.blog-title
 		margin-top: 5px
 

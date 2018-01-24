@@ -83,6 +83,8 @@ section.merch
 	grid-gap: 20px
 	+respond-to($laptop)
 		grid-template-columns: repeat(3, 1fr)
+		box-sizing: border-box
+		padding: 0 25px
 	+respond-to($tablet)
 		grid-template-columns: repeat(2, 1fr)
 	+respond-to($phone)
@@ -116,6 +118,10 @@ body.single-shop
 		margin: 60px 0 25px 0
 		font-size: 1.2em
 		text-transform: uppercase
+		+respond-to($laptop)
+			padding-left: 25px
+		+respond-to($phablet)
+			padding-left: 2px
 
 	ul.items
 		@extend %items-ph

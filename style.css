@@ -108,6 +108,12 @@ section.blogs {
   padding: 20px 0 0 0;
 }
 
+@media screen and (max-width: 607px) {
+  section.blogs {
+    padding: 20px;
+  }
+}
+
 section.blogs ul.blogs-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -150,7 +156,8 @@ section.blogs .blog-body {
 
 @media screen and (max-width: 470px) {
   section.blogs .blog-body {
-    flex: 0 0 90%;
+    flex: 0 0 100%;
+    padding: 5px;
   }
 }
 
@@ -186,6 +193,13 @@ body.blog .main-content, body.single .main-content {
 @media screen and (max-width: 1000px) {
   body.blog .main-content, body.single .main-content {
     flex-direction: column;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 607px) {
+  body.blog .main-content, body.single .main-content {
+    padding: 0;
   }
 }
 
@@ -218,6 +232,13 @@ body.single section.blogs .blogs-container {
 
 body.single section.blogs li.blog {
   display: block;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 607px) {
+  body.single section.blogs li.blog {
+    padding: 0;
+  }
 }
 
 body.single section.blogs img.wp-post-image {
@@ -253,16 +274,32 @@ body.single-shop section.blogs li.blog {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 607px) {
+  body.single-shop section.blogs li.blog {
+    display: block;
+  }
+}
+
 body.single-shop section.blogs .img-wrapper {
   width: 30%;
 }
 
-body.single-shop section.blogs img.wp-post-image {
-  max-width: 100%;
+@media screen and (max-width: 607px) {
+  body.single-shop section.blogs .img-wrapper {
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 }
 
 body.single-shop section.blogs .blog-body {
   width: 65%;
+}
+
+@media screen and (max-width: 607px) {
+  body.single-shop section.blogs .blog-body {
+    width: 100%;
+  }
 }
 
 body.single-shop section.blogs h5.blog-title {
@@ -597,6 +634,8 @@ body.post-type-archive-shop section.merch ul.items, body.single-shop ul.items {
 @media screen and (max-width: 1000px) {
   body.post-type-archive-shop section.merch ul.items, body.single-shop ul.items {
     grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+    padding: 0 25px;
   }
 }
 
@@ -639,6 +678,18 @@ body.single-shop .rprod-header {
   margin: 60px 0 25px 0;
   font-size: 1.2em;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 1000px) {
+  body.single-shop .rprod-header {
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 607px) {
+  body.single-shop .rprod-header {
+    padding-left: 2px;
+  }
 }
 
 body.single-shop ul.items {
@@ -856,6 +907,13 @@ aside.sidebar {
   min-width: 20%;
 }
 
+@media screen and (max-width: 1000px) {
+  aside.sidebar {
+    min-width: 85%;
+    margin: 0 auto;
+  }
+}
+
 aside.sidebar .widget-item {
   padding: 5px 5px 35px 5px;
 }
@@ -873,26 +931,34 @@ aside.sidebar li {
   border-bottom: 1px solid #bbbe64;
 }
 
-@media screen and (max-width: 1000px) {
-  aside.sidebar li {
-    text-align: center;
-  }
-}
-
 aside.sidebar a {
   font-size: .9em;
   font-weight: normal;
 }
 
 aside.sidebar ul.blogs-wrapper li.blog {
+  text-align: left;
   display: flex;
   border: none;
   margin-bottom: 10px;
   justify-content: flex-start;
 }
 
+@media screen and (max-width: 470px) {
+  aside.sidebar ul.blogs-wrapper li.blog {
+    flex-wrap: nowrap;
+  }
+}
+
 aside.sidebar ul.blogs-wrapper .blog-body {
   padding-left: 15px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 470px) {
+  aside.sidebar ul.blogs-wrapper .blog-body {
+    max-width: calc(100% - 50px);
+  }
 }
 
 aside.sidebar ul.blogs-wrapper .blog-date {

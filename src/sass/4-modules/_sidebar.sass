@@ -1,6 +1,9 @@
 aside.sidebar
 	// background-color: #ccc
 	min-width: 20%
+	+respond-to($laptop)
+		min-width: 85%	
+		margin: 0 auto
 
 	.widget-item
 		padding: 5px 5px 35px 5px
@@ -15,8 +18,6 @@ aside.sidebar
 	li
 		padding: 7px 5px
 		border-bottom: 1px solid $brand-secondary-color
-		+respond-to($laptop)
-			text-align: center
 
 	a
 		font-size: .9em
@@ -25,13 +26,19 @@ aside.sidebar
 	ul.blogs-wrapper
 
 		li.blog
+			text-align: left 
 			display: flex
 			border: none
 			margin-bottom: 10px
 			justify-content: flex-start
+			+respond-to($phone)
+				flex-wrap: nowrap;
 
 		.blog-body
 			padding-left: 15px
+			box-sizing: border-box
+			+respond-to($phone)
+				max-width: calc(100% - 50px)
 
 		.blog-date
 			font-size: .7em
