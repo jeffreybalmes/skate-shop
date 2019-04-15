@@ -37,7 +37,7 @@
 				$relatedPosts = new WP_Query( $args );
 				?>
 				<?php if ($relatedPosts->have_posts()): ?>
-				<h1 class="rprod-header">You may also like</h1>
+				<h1 class="rprod-header">You may also like..</h1>
 				<ul class="items">
 					<?php while($relatedPosts->have_posts()) : $relatedPosts->the_post(); ?>
 
