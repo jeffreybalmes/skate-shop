@@ -1,112 +1,138 @@
-"use strict";
+// Load Gulp...of course
+const { src, dest, task, watch, series, parallel } = require('gulp');
 
-// Variables
+// CSS related plugins
+var sass         = require( 'gulp-sass' );
+var autoprefixer = require( 'gulp-autoprefixer' );
 
-//Gulp Plugins
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
-var newer = require('gulp-newer');
-var sourcemaps = require('gulp-sourcemaps');
-var imagemin = require('gulp-imagemin');
-var browserSync = require('browser-sync').create();
-var reload = browserSync.reload;
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var watch = require('gulp-watch');
+// JS related plugins
+var uglify       = require( 'gulp-uglify' );
+var babelify     = require( 'babelify' );
+var browserify   = require( 'browserify' );
+var source       = require( 'vinyl-source-stream' );
+var buffer       = require( 'vinyl-buffer' );
+var stripDebug   = require( 'gulp-strip-debug' );
 
-// Project URL.
-var projectURL = 'localhost/wordpress/wp-skate-shop/';
+// Utility plugins
+var rename       = require( 'gulp-rename' );
+var sourcemaps   = require( 'gulp-sourcemaps' );
+var notify       = require( 'gulp-notify' );
+var plumber      = require( 'gulp-plumber' );
+var options      = require( 'gulp-options' );
+var gulpif       = require( 'gulp-if' );
 
-// Styles related.
-var styleSRC = 'src/sass/**/*.scss';
-var styleDestination = './';
+// Browers related plugins
+var browserSync  = require( 'browser-sync' ).create();
 
-// JS related.
-var jsSRC = 'src/js/dev/**/*.js';
-var jsDestination = './src/js/dist/';
-var jsFile = 'app.min.js';
+// Project related variables
+var styleSRC     = './src/scss/style.scss';
+var styleURL     = './dist/css/';
+var mapURL       = './';
 
-// Images related.
-var imgSrc = 'src/images/originals/*';
-var imgDest = 'src/images/';
-var baseImg = 'src/images/originals';
+var jsSRC        = './src/js/';
+var jsFront      = 'main.js';
+var jsFiles      = [ jsFront ];
+var jsURL        = './dist/js/';
 
-// Watch files paths.
-var styleScssWatchFiles = 'src/sass/**/*.scss';
-var styleSassWatchFiles= 'src/sass/**/*.sass';
-var JSWatchFiles = 'src/js/**/*.js';
-var PHPWatchFiles ='./**/*.php';
+var imgSRC       = './src/images/**/*';
+var imgURL       = './dist/images/';
 
-// Browsers autoprefixers
-var autoprefixerBrowsers = [
-    'last 2 version',
-    '> 1%',
-    'ie >= 9',
-    'ie_mob >= 10',
-    'ff >= 30',
-    'chrome >= 34',
-    'safari >= 7',
-    'opera >= 23',
-    'ios >= 7',
-    'android >= 4',
-    'bb >= 10'
-];
+var fontsSRC     = './src/fonts/**/*';
+var fontsURL     = './dist/fonts/';
 
+var htmlSRC     = './src/**/*.html';
+var htmlURL     = './dist/';
+
+var styleWatch   = './src/scss/**/*.scss';
+var jsWatch      = './src/js/**/*.js';
+var imgWatch     = './src/images/**/*.*';
+var fontsWatch   = './src/fonts/**/*.*';
+var htmlWatch    = './src/**/*.html';
 
 // Tasks
+function browser_sync() {
+	browserSync.init({
+		server: {
+			baseDir: './dist/'
+		}
+	});
+}
 
-gulp.task('browser-sync', function() {
-    browserSync.init({
-        proxy: projectURL,
-        browser: ['chrome', 'firefox']
-    });
-});
+function reload(done) {
+	browserSync.reload();
+	done();
+}
 
-gulp.task('sass', function () {
-  return gulp.src( styleSRC )
-    .pipe(sourcemaps.init())
-    // .pipe(autoprefixer({ browsers: ['last 2 versions'], cascade: false }))
-    .pipe(autoprefixer(autoprefixerBrowsers))
-    .pipe(sass({ outputStyle:'expanded'}).on('error', sass.logError))
-    .pipe(sourcemaps.write('./maps'))
-    .pipe(gulp.dest( styleDestination ));
-});
+function css(done) {
+	src( [ styleSRC ] )
+		.pipe( sourcemaps.init() )
+		.pipe( sass({
+			errLogToConsole: true,
+			outputStyle: 'compressed'
+		}) )
+		.on( 'error', console.error.bind( console ) )
+		.pipe( autoprefixer({ browsers: [ 'last 2 versions', '> 5%', 'Firefox ESR' ] }) )
+		.pipe( rename( { suffix: '.min' } ) )
+		.pipe( sourcemaps.write( mapURL ) )
+		.pipe( dest( styleURL ) )
+		.pipe( browserSync.stream() );
+	done();
+};
 
+function js(done) {
+	jsFiles.map( function( entry ) {
+		return browserify({
+			entries: [jsSRC + entry]
+		})
+		.transform( babelify, { presets: [ '@babel/preset-env' ] } )
+		.bundle()
+		.pipe( source( entry ) )
+		.pipe( rename( {
+			extname: '.min.js'
+        } ) )
+		.pipe( buffer() )
+		.pipe( gulpif( options.has( 'production' ), stripDebug() ) )
+		.pipe( sourcemaps.init({ loadMaps: true }) )
+		.pipe( uglify() )
+		.pipe( sourcemaps.write( '.' ) )
+		.pipe( dest( jsURL ) )
+		.pipe( browserSync.stream() );
+	});
+	done();
+};
 
-gulp.task('watch', function() {
+function triggerPlumber( src_file, dest_file ) {
+	return src( src_file )
+		.pipe( plumber() )
+		.pipe( dest( dest_file ) );
+}
 
-    // Watch .scss & .sass files
-    gulp.watch( styleScssWatchFiles , ['sass']).on("change", browserSync.reload);
-    gulp.watch( styleSassWatchFiles , ['sass']).on("change", browserSync.reload);
-    // Watch js directory
-    gulp.watch( JSWatchFiles , ['js']).on("change", browserSync.reload);
-    // Reload on PHP file changes.
-    gulp.watch( PHPWatchFiles ).on("change", browserSync.reload);
-    // Watch original images directory
-    gulp.watch(imgSrc, ['images']).on("change", browserSync.reload);
-});
+function images() {
+	return triggerPlumber( imgSRC, imgURL );
+};
 
-gulp.task('images', function() {
-    return gulp.src(imgSrc, {base: baseImg})
-      .pipe(newer(imgDest))
-      .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-      .pipe(gulp.dest(imgDest));
-});
+function fonts() {
+	return triggerPlumber( fontsSRC, fontsURL );
+};
 
+function html() {
+	return triggerPlumber( htmlSRC, htmlURL );
+};
 
-gulp.task('js', function(){
-  return gulp.src( jsSRC )
-    .pipe(concat( jsFile ))
-    .pipe(uglify())
-    .pipe(gulp.dest( jsDestination ))
-});
+function watch_files() {
+	watch(styleWatch, series(css, reload));
+	watch(jsWatch, series(js, reload));
+	watch(imgWatch, series(images, reload));
+	watch(fontsWatch, series(fonts, reload));
+	watch(htmlWatch, series(html, reload));
+	src(jsURL + 'main.min.js')
+		.pipe( notify({ message: 'Gulp is Watching, Happy Coding!' }) );
+}
 
-// Move Font Awesome CSS to src/css
-gulp.task('fa', function() {
-  return gulp.src('bower_components/font-awesome/css/font-awesome.min.css')
-    .pipe(gulp.dest('src/css'))
-});
-
-gulp.task('default',['sass', 'browser-sync','watch','images', 'js', 'fa']);
-
+task("css", css);
+task("js", js);
+task("images", images);
+task("fonts", fonts);
+task("html", html);
+task("default", parallel(css, js, images, fonts, html));
+task("watch", parallel(browser_sync, watch_files));
