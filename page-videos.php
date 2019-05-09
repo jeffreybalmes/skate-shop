@@ -33,7 +33,6 @@
 						<a href=""><h5 class="video-title">HELIPOP MINI RAMP NOSEGRIND.</h5></a>
 					</li>
 				</ul>
-				<?php get_sidebar(); ?>
 			</div>
 		</div>
 	</section>
