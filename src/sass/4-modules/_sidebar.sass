@@ -1,8 +1,7 @@
 aside.sidebar
-	// background-color: #ccc
-	min-width: 20%
+	min-width: 22%
 	+respond-to($laptop)
-		min-width: 85%	
+		min-width: 85%
 		margin: 0 auto
 
 	.widget-item
@@ -26,7 +25,7 @@ aside.sidebar
 	ul.blogs-wrapper
 
 		li.blog
-			text-align: left 
+			text-align: left
 			display: flex
 			border: none
 			margin-bottom: 10px
@@ -51,3 +50,27 @@ aside.sidebar
 
 			&:hover
 				text-decoration: underline
+
+.blog-date
+   color: #a3aa9b
+
+div.search
+   margin-bottom: 26px
+   text-align: center
+
+   label
+      position: absolute
+      left: -9999px
+
+   #s
+      vertical-align: top
+      padding: 3px 0
+
+   #searchsubmit
+      text-transform: uppercase
+      font-size: 0.8em
+      vertical-align: top
+      background-color: $brand-color
+      color: #fff
+      padding: 5px 14px
+      border: none

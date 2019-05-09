@@ -54,7 +54,9 @@ section.blogs
 		line-height: .9em
 
 
-body.blog
+body.blog,
+body.archive,
+body.search
 	.main-content
 		display: flex
 		justify-content: space-between
@@ -64,11 +66,19 @@ body.blog
 			padding: 20px
 		+respond-to($phablet)
 			padding: 0
-		
+
 	ul.blogs-wrapper
 		display: block
-		flex: 0 0 78%
+		flex: 0 0 75%
 
+body.archive,
+body.search,
+   section.blogs
+      h2.category
+         font-family: $font-stack
+         font-size: 21px
+         margin-top: 0
+         margin-bottom: 45px
 
 body.single
 	@extend body.blog
@@ -116,7 +126,7 @@ body.single
 body.single-shop section.blogs
 	li.blog
 		display: flex
-		justify-content: space-between		
+		justify-content: space-between
 		+respond-to($phablet)
 			display: block
 
@@ -131,10 +141,27 @@ body.single-shop section.blogs
 		width: 65%
 		+respond-to($phablet)
 			width: 100%
-		
+
 	h5.blog-title
 		margin-top: 5px
 
+body.search
+   li.item
+      @extend %item-ph
+      max-width: 30%
+      margin-bottom: 35px
+      +respond-to($phone)
+         max-width: 100%
+
+   .image-container
+      +respond-to($phone)
+         max-width: 100%
+
+   img.wp-post-image
+      +respond-to($phone)
+         margin-bottom: 5px
+         max-width: 100%
+         height: auto
 
 
 

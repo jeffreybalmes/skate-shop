@@ -1,5 +1,5 @@
 %item-ph
-	width: calc((100% / 4) - 2%)
+	width: 100%
 	+respond-to($tablet)
 		min-width: calc((100% / 2) - 4%)
 		margin-bottom: 60px
@@ -64,23 +64,31 @@ section.merch
 	padding: 40px 0 30px 0
 
 	ul.items
-		display: flex
-		justify-content: space-between
-		width: 100%
-		flex-wrap: wrap
-		+respond-to($tablet)
-			justify-content: space-around
+      display: grid
+      grid-template-columns: repeat(4, 1fr)
+      grid-gap: 20px
+      +respond-to($laptop)
+         grid-template-columns: repeat(3, 1fr)
+         box-sizing: border-box
+         padding: 0 25px
+      +respond-to($tablet)
+         grid-template-columns: repeat(2, 1fr)
+      +respond-to($phone)
+         display: block
+      li.item
+         @extend %item-ph
 
-		li.item
-			@extend %item-ph
+.items-wrapper
+   min-width: 75%
 
 
 //placeholder
 %items-ph
-	flex: 0 0 78%
+	flex: 0 0 74%
 	display: grid
-	grid-template-columns: repeat(4, 1fr)
+	grid-template-columns: repeat(3, 1fr)
 	grid-gap: 20px
+
 	+respond-to($laptop)
 		grid-template-columns: repeat(3, 1fr)
 		box-sizing: border-box
@@ -96,7 +104,8 @@ section.merch
 	h6.item-price
 		font-size: em(14px)
 
-body.post-type-archive-shop
+body.post-type-archive-shop,
+body.page-id-65
 
 	section.merch
 		.wrapper
