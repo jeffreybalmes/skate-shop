@@ -14,7 +14,7 @@
 				<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 			<?php endif ?>
 		</h5>
-		<small class="blog-date"><?php the_meta('price'); ?> Category: <?php echo shop_get_terms($post->ID, 'product'); ?></small>
+		<small class="blog-date"><?php the_meta('price'); ?></small>
 		<!-- <small><?php echo shop_get_terms($post->ID, 'info'); ?></small> -->
 
 

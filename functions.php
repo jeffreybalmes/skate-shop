@@ -2,8 +2,9 @@
 
 function shop_theme_resources(){
 	wp_enqueue_style('style', get_stylesheet_uri());
-	wp_enqueue_style('fa', get_template_directory_uri() . '/src/css/font-awesome.min.css', array(), '', 'all');
-	wp_enqueue_script('customjs', get_template_directory_uri() . '/src/js/dist/app.min.js', array(), '1.0.0', true);
+   wp_enqueue_style('customstyle', get_template_directory_uri() . '/dist/css/style.min.css', array(), '', 'all');
+   wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+	wp_enqueue_script('customjs', get_template_directory_uri() . '/dist/js/app.min.js', array(), '1.0.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'shop_theme_resources');
@@ -57,7 +58,7 @@ add_action('widgets_init','shop_theme_widgets');
 
 /*
 	==========================================
-	 Custom Post Type
+	Custom Post Type
 	==========================================
 */
 function shop_custom_post_type (){
@@ -95,7 +96,8 @@ function shop_custom_post_type (){
 		),
 		// 'taxonomies' => array('category', 'post_tag'),
 		'menu_position' => 5,
-		'exclude_from_search' => false
+      'exclude_from_search' => false,
+      'supports' => array('title', 'editor', 'post-formats', 'custom-fields', 'thumbnail')
 	);
 	register_post_type('shop',$args);
 }
