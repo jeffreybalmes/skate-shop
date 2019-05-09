@@ -2,7 +2,10 @@
         "files.exclude": {
             "**/directory-you-want-to-exclude": true,
             "**/.git": true,
-            "**/node_modules": true,
-            "**/bower_components": true,
+            "**/node_modules": false,
+            "**/bower_components": false,
+            "**/skate-shop-theme.sublime-workspace": true,
+            "**/skate.sublime-workspace": true,
+            "**/myTasks.todo": true
         }
 }
